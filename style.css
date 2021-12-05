@@ -1,0 +1,318 @@
+
+div {
+    position: relative;
+    z-index: 2;
+}
+.box {
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    width: 450px;
+    background: rgba(0,0,0, 0.5);
+    color: white; 
+    border-radius: 10px; 
+    padding: 13px;       
+}
+.box-img {
+    border-radius:20px;
+
+}
+.box:hover {
+    box-shadow: rgba(5, 238, 255, 0.4) -5px 5px, 
+                rgba(5, 167, 179, 0.3) -10px 10px, 
+                rgba(0, 119, 109, 0.2) -15px 15px, 
+                rgba(0, 123, 145, 0.178) -20px 20px, 
+                rgba(1, 109, 94, 0.123) -25px 25px;
+    transform: translateY(-30px);
+    transition: 0.5s;
+    
+}
+.box h1 {
+    
+    font-size: 40px;
+    letter-spacing: 5px;
+
+}
+.box h3 {
+    font-size: 27px;
+    letter-spacing: 3px;
+    
+}
+.box p {
+    
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+/* @font-face {
+    font-family: 'HACKED';
+    src: url(HACKED.ttf);
+} */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ li {
+      display: inline-block;
+     text-align: center;
+     margin: 10px;
+     margin-left: -1px;
+     font-size: 40px;
+     color:rgb(71, 70, 70);
+ }
+ li a {
+     color: white;
+
+ }
+
+ li a:hover {
+     color:rgb(167, 167, 167);
+     
+ }
+ .container
+ {
+     text-align: center;
+     
+     letter-spacing: 2px;
+     margin-top: 3%;
+   
+ }
+ .container:hover 
+ {
+     color:rgb(75, 75, 75);
+    
+
+
+ }
+
+
+
+
+   
+
+
+
+ .ap
+ {
+     color:black;
+     text-align: center;
+     letter-spacing: 2px;
+    
+     font-weight: 100%;
+
+  
+ }
+ span:hover{
+
+    /* color:white; */
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+    transition: 0.5s;
+  
+
+ }           
+
+ 
+
+
+ .col-md-3
+ {
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 100;
+    justify-content:center;
+    margin: 100px ;
+    margin-top: 5px;
+    margin-top: 20%;
+
+  
+ }
+ .row
+ {
+     justify-content: space-around;
+     text-align:center;
+     
+     
+ }
+ .dom
+ {
+     text-decoration: none;
+     justify-content: space-around;
+     display: inline-block;
+     border-radius: 20px;
+     padding: 5px;
+   
+   
+    
+ }
+
+ #pip
+ {
+    box-shadow: 0px 10px 50px rgba(0,0,0, 0.5);
+    padding: 20px;
+    
+ }
+ 
+ #oh:hover
+ {
+    
+    box-shadow: 0px 10px 50px rgba(41, 4, 253, 0.7);
+    transform:translateY(-10px);
+    transition:0.4s ;
+    background: rgba( 255, 255,255, 0.1);
+
+
+
+ }
+
+ #ee:hover {
+    transform:translateY(-13px);
+    box-shadow: 0px 10px 50px rgba(27,233,45, 0.7);
+    transition:0.4s ;
+    background: rgba( 255, 255,255, 0.1);
+
+
+
+
+
+ }
+ #cc:hover {
+    transform:translateY(-13px);
+    box-shadow: 0px 10px 50px rgba(253, 4, 241, 0.7);
+    transition:0.4s ;
+    background: rgba( 255, 255,255, 0.1);
+
+ }
+
+ a:hover {
+     
+    transform:translateY(-10px);
+    
+    
+}
+
+.footer-img a{
+    color: rgb(49, 49, 49);
+    font-size: 40px;
+    justify-content: center;
+    margin: 7px;
+}
+
+.footer-img a:hover{
+    color: rgb(87, 87, 87);
+}
+
+@media (max-width:1200px) { 
+
+#pip .col-md-3{
+    width: 50%;
+
+}
+
+
+}
+
+@media(max-width:800px){
+
+    #pip .col-md-3{
+        width: 75%;
+    
+    }
+
+}
+
+@media(max-width:500px){
+
+    #pip .col-md-3{
+        width: 70%;
+    
+    }
+
+}
+
+#jagadish{
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+.sametitle {
+    font-family: 'Caveat', cursive;
+}
+
+.navbar {
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+p{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 17px;
+}
+
+.sameheader{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#noob{
+    background-color: rgb(214, 214, 214);
+}
+#noob:hover
+{
+    box-shadow: 0px 10px 50px rgba(63, 255, 245, 0.479);
+}
+
+
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#mg {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+   
+}
+#mg:hover {
+    color: rgb(22, 20, 20);
+    
+}
+
+#gg {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+}   
+#gg:hover {
+    color: rgb(59, 59, 59);
+
+}
+
+#link {
+  
+    padding: 3px;
+    box-shadow: 0px 10px 50px rgba(49, 49, 49, 0.479);
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+*{
+    cursor: pointer;
+}
+
+#link:hover{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.email {
+    text-transform: lowercase;
+}
+
+#contact{
+    font-family: 'Signika', sans-serif;
+}
